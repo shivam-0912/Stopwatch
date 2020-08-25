@@ -1,0 +1,66 @@
+body{
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Raleway', sans-serif; */
+    background-image: url("images/tree.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+   
+}
+
+
+.heading h1{
+   
+    text-align: center;
+    color: #D7A04E;
+    font-size: 5vw;
+}
+.lap p{
+    color:white;
+    text-align:right;
+    font-size:3vw;
+}
+#lap{
+    margin-right:30px
+}
+.time p{
+    color: white;
+    font-size: 8vw;
+    text-align: center;
+}
+.buttons{
+  
+    text-align: center;
+}
+.buttons button{
+    margin-right: 6vw;
+    background-color: #D7A04E;
+    color: white;
+    border: none;
+    border-radius:8vw ;
+    font-size: 2vw;
+    padding: 1.5vw;
+}
+#count{
+    
+    width:100%;
+    margin-top: 1vw;
+    color: white;
+    font-size: 3vw;
+    height: 30vh;
+    overflow-y: scroll;
+}
+#lapdiv{
+    border-bottom: solid 0.5vw white;
+    height: 6vw;
+}
+#lapno{
+    float: left;
+}
+#laptime{
+    float:right;
+}
+.clear{
+    clear: both;
+}
